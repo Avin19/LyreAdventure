@@ -1,0 +1,57 @@
+{
+    "gameTitle": "Gem Dash: The Crystal Quest",
+    "intro": {
+        "scene": "Forest",
+        "dialogues": [
+            "The Crystals of Light have been scattered...",
+            "Find them before the shadows consume Aurelia."
+        ]
+    },
+    "levels": [
+        {
+            "id": 1,
+            "name": "Forest of Beginnings",
+            "introDialogue": [
+                "The forest is dim.",
+                "The spirits are slow, but they follow your steps."
+            ],
+            "goal": "Collect 3 Crystals of Light",
+            "endDialogue": [
+                "The forest glimmers again.",
+                "But shadows grow restless in the caves..."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Caves of Shadows",
+            "introDialogue": [
+                "The caves whisper in the dark.",
+                "Spirits here move faster. Keep your distance."
+            ],
+            "goal": "Collect 5 Crystals of Light",
+            "endDialogue": [
+                "The caves echo with silence.",
+                "The ruins await... guarded by stronger shadows."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Ruins of Aurelia",
+            "introDialogue": [
+                "The ruins are cursed.",
+                "The shadows hunt in numbers. Stay swift."
+            ],
+            "goal": "Collect 7 Crystals of Light",
+            "endDialogue": [
+                "The crystals shine once more...",
+                "Aurelia is safe, for now."
+            ]
+        }
+    ],
+    "ending": {
+        "dialogues": [
+            "With the Crystals of Light restored, Aurelia is safe.",
+            "But the shadows never rest..."
+        ]
+    }
+}

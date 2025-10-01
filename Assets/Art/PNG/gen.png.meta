@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: bc57d59f45d248c488a0a2e93a14b700
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gen_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 340
+        width: 85
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b30f297efe943c4083ca72236f5c429
+      internalID: 1406585123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gen_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 339
+        width: 78
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf9a6196f3fad14db7fefa90ba36ad2
+      internalID: 2022112721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gen_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 339
+        width: 78
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2d7ed309fc4824c99167ec09ef6cfa
+      internalID: -300448385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gen_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 340
+        width: 71
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c389e825c94a84b9af1a8e7a33df36
+      internalID: 196564211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gen_17
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 339
+        width: 68
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4931d5ff345d84bbb26b4f564aabf5
+      internalID: -608060597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gen_0: 1202433024
+      gen_1: 1406585123
+      gen_10: 196564211
+      gen_100: 488997296
+      gen_101: -743753003
+      gen_102: -1726641001
+      gen_103: 542036827
+      gen_104: -1911425346
+      gen_105: -1001920050
+      gen_106: -1381346224
+      gen_107: 1542462338
+      gen_108: -1702526247
+      gen_109: 362912891
+      gen_11: -1888619016
+      gen_110: 660243988
+      gen_111: 1020477821
+      gen_112: 46700001
+      gen_113: -1802576257
+      gen_114: 184471355
+      gen_115: 1498752577
+      gen_116: -1781182391
+      gen_117: -367796828
+      gen_118: 794850021
+      gen_119: -111285899
+      gen_12: 1298274892
+      gen_120: 1353450602
+      gen_121: -2079310617
+      gen_122: 1429752771
+      gen_123: 346779922
+      gen_124: -1003015238
+      gen_125: 973157584
+      gen_126: 241490432
+      gen_127: -1498242627
+      gen_128: -286113003
+      gen_129: 2027847943
+      gen_13: 2103262511
+      gen_130: 679114246
+      gen_131: 489595606
+      gen_132: -1736866562
+      gen_133: 1685101584
+      gen_134: -571122909
+      gen_135: 343016288
+      gen_136: 1680499790
+      gen_137: 1084622440
+      gen_138: 66667014
+      gen_139: -241915528
+      gen_14: -722175986
+      gen_140: 560987789
+      gen_141: 805770118
+      gen_142: 1230438551
+      gen_143: 1923400364
+      gen_144: 1005343565
+      gen_145: -432856487
+      gen_146: 1492625488
+      gen_147: 2056383490
+      gen_148: 1134926013
+      gen_149: 1643163321
+      gen_15: 539759375
+      gen_150: 1768420175
+      gen_151: 663900637
+      gen_152: 376582891
+      gen_153: -1056324321
+      gen_154: -1476118992
+      gen_155: 1193113646
+      gen_156: -2099010684
+      gen_157: -175202466
+      gen_158: -1834347576
+      gen_159: -1651642281
+      gen_16: -1088023460
+      gen_160: 928686184
+      gen_161: -830365462
+      gen_162: 711933568
+      gen_163: 204574530
+      gen_164: -442935210
+      gen_165: 928503537
+      gen_166: 941803834
+      gen_167: 1247727948
+      gen_168: -1656905450
+      gen_169: 327845205
+      gen_17: -608060597
+      gen_170: 1741274354
+      gen_171: -455225515
+      gen_172: -2115145961
+      gen_173: -1777072041
+      gen_174: -1610801369
+      gen_175: 1066498
+      gen_176: 280340130
+      gen_177: -2031035964
+      gen_178: -785670942
+      gen_179: 889285783
+      gen_18: -608884751
+      gen_180: 283104881
+      gen_181: 462508849
+      gen_182: -431565430
+      gen_183: -772662121
+      gen_184: 886443210
+      gen_185: -1243011773
+      gen_186: -925290981
+      gen_187: -1384866496
+      gen_188: -945080803
+      gen_189: -2131472425
+      gen_19: -706851166
+      gen_190: 539066772
+      gen_191: -1970909408
+      gen_192: 279300163
+      gen_193: 724198325
+      gen_194: -745896461
+      gen_195: 534360352
+      gen_196: 2095841026
+      gen_197: -502236334
+      gen_198: -1590153455
+      gen_199: -1806983942
+      gen_2: -1553601109
+      gen_20: 1363629156
+      gen_200: -746514589
+      gen_201: -789056133
+      gen_202: 544869445
+      gen_203: 821160581
+      gen_204: 373393373
+      gen_205: -429206879
+      gen_206: 771711772
+      gen_207: 1148831380
+      gen_208: -214812893
+      gen_209: -42110303
+      gen_21: 946985117
+      gen_210: 42370362
+      gen_211: 513413856
+      gen_212: 404424739
+      gen_213: 1055646135
+      gen_214: -1335503880
+      gen_215: 194504189
+      gen_216: 102918435
+      gen_217: 422859204
+      gen_218: 209222796
+      gen_219: 1881311320
+      gen_22: -1859537525
+      gen_220: -189994967
+      gen_221: -727008370
+      gen_222: -1022655375
+      gen_223: 1145728621
+      gen_224: -2127899909
+      gen_225: -1932499479
+      gen_226: -483648810
+      gen_227: -496792671
+      gen_23: -1427159340
+      gen_24: -1651479914
+      gen_25: 757471920
+      gen_26: -1224052367
+      gen_27: 345595408
+      gen_28: -1393221563
+      gen_29: -431269746
+      gen_3: 2030128766
+      gen_30: 242006352
+      gen_31: 906097016
+      gen_32: 2019966570
+      gen_33: -2141394303
+      gen_34: 1771717125
+      gen_35: -245670088
+      gen_36: 642689648
+      gen_37: -1908958562
+      gen_38: -292437956
+      gen_39: -111966612
+      gen_4: 2022112721
+      gen_40: -1602064475
+      gen_41: 956972796
+      gen_42: 2134984221
+      gen_43: 70183478
+      gen_44: 1578839432
+      gen_45: 1537601031
+      gen_46: -870462282
+      gen_47: 1595281950
+      gen_48: -175237331
+      gen_49: 1415862897
+      gen_5: 1421456244
+      gen_50: 1882822947
+      gen_51: 1839223902
+      gen_52: -1584111322
+      gen_53: -1304341209
+      gen_54: -571749522
+      gen_55: 22392019
+      gen_56: 1388235172
+      gen_57: -1736141132
+      gen_58: -21501020
+      gen_59: 861400712
+      gen_6: -2034680558
+      gen_60: -1616735896
+      gen_61: 2001096770
+      gen_62: 1011926271
+      gen_63: 2067742896
+      gen_64: 322102649
+      gen_65: -203800189
+      gen_66: -1815467047
+      gen_67: 544280716
+      gen_68: 2140726122
+      gen_69: 845920469
+      gen_7: -157174349
+      gen_70: 175890632
+      gen_71: -1844333777
+      gen_72: 69858639
+      gen_73: 745714693
+      gen_74: 1952373963
+      gen_75: -1445872191
+      gen_76: 780689093
+      gen_77: -1705361585
+      gen_78: 1388405112
+      gen_79: 320468736
+      gen_8: -300448385
+      gen_80: 1559107
+      gen_81: 1676470213
+      gen_82: -898428552
+      gen_83: 967008696
+      gen_84: -1722046806
+      gen_85: -234892738
+      gen_86: 407542816
+      gen_87: 390604662
+      gen_88: -52403983
+      gen_89: -1291387273
+      gen_9: 765193693
+      gen_90: 1787995691
+      gen_91: 547106136
+      gen_92: -2001501455
+      gen_93: 1178728568
+      gen_94: -2118310281
+      gen_95: -1905949462
+      gen_96: 820178573
+      gen_97: -1560928566
+      gen_98: -2051215319
+      gen_99: -1163288093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

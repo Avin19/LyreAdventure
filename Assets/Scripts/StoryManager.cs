@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.IO;
 using TMPro;
+using UnityEngine.SceneManagement; // ✅ Needed for scene loading
+
 public class StoryManager : MonoBehaviour
 {
     public TextMeshProUGUI storyText; // UI Text for displaying dialogue
@@ -8,10 +10,22 @@ public class StoryManager : MonoBehaviour
     private int currentLine = 0;
     private string[] currentDialogues;
 
+    [Header("Cutscene Settings")]
+    public bool isIntroCutscene = false;
+    public bool isLevelIntro = false;
+    public bool isLevelEnding = false;
+    public bool isEnding = false;
+    public int levelId = 1; // which level this cutscene belongs to
+
     void Start()
     {
         LoadStory();
-        LoadIntro(); // start with the intro by default
+
+        if (isIntroCutscene) LoadIntro();
+        else if (isLevelIntro) LoadLevelIntro(levelId);
+        else if (isLevelEnding) LoadLevelEnding(levelId);
+        else if (isEnding) LoadEnding();
+
         ShowNextLine();
     }
 
@@ -70,10 +84,32 @@ public class StoryManager : MonoBehaviour
         }
         else
         {
-            storyText.text = ""; // clear after dialogues end
+            storyText.text = "";
+
+            if (isIntroCutscene)
+            {
+                StartCoroutine(FadeTransition.Instance.FadeOutAndLoad("Level1_Forest"));
+            }
+            else if (isLevelIntro)
+            {
+                StartCoroutine(FadeTransition.Instance.FadeOutAndLoad("Level" + levelId + "_Forest"));
+            }
+            else if (isLevelEnding)
+            {
+                if (levelId < story.levels.Length)
+                    StartCoroutine(FadeTransition.Instance.FadeOutAndLoad("Cutscene_Level" + (levelId + 1) + "Intro"));
+                else
+                    StartCoroutine(FadeTransition.Instance.FadeOutAndLoad("Cutscene_Ending"));
+            }
+            else if (isEnding)
+            {
+                StartCoroutine(FadeTransition.Instance.FadeOutAndLoad("MainMenu"));
+            }
         }
+
     }
 }
+
 [System.Serializable]
 public class StoryData
 {
@@ -82,8 +118,8 @@ public class StoryData
     public Level[] levels;
     public Ending ending;
 }
-[System.Serializable]
 
+[System.Serializable]
 public class Intro
 {
     public string scene;
@@ -99,8 +135,8 @@ public class Level
     public string goal;
     public string[] endDialogue;
 }
-[System.Serializable]
 
+[System.Serializable]
 public class Ending
 {
     public string[] dialogues;

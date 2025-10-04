@@ -1507,6 +1507,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5377890123122258988, guid: d6f5aba769355a64f9b39e5ca77f7687, type: 3}
+      propertyPath: m_ChunkCullingBounds.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377890123122258988, guid: d6f5aba769355a64f9b39e5ca77f7687, type: 3}
+      propertyPath: m_ChunkCullingBounds.y
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 7505821236689692904, guid: d6f5aba769355a64f9b39e5ca77f7687, type: 3}
       propertyPath: m_Layer
       value: 3
